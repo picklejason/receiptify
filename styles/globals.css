@@ -1,0 +1,20 @@
+@tailwind base;
+@layer base {
+  img {
+    @apply inline-block;
+  }
+}
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Merchant Copy";
+  src: url("/Merchant_Copy.ttf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Merchant Copy";
+  src: url("/Merchant Copy Doublesize.ttf");
+  font-weight: 700;
+}
