@@ -7,6 +7,7 @@ import Button from "../components/Button";
 import { toast } from "react-toastify";
 import { convertTime } from "@/utils/convertTime";
 import { removeImageBackground } from "@/utils/removeImageBackground";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   const { data: session } = useSession();
@@ -256,6 +257,7 @@ export default function Home() {
           />
         </div>
       )}
+      <Footer />
     </div>
   );
 }
